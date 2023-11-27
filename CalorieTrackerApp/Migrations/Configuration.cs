@@ -1,4 +1,4 @@
-namespace CalorieTrackerApp.Migrations
+namespace FitnessTrackerApp.Migrations
 {
     using System;
     using System.Data.Entity;
@@ -10,7 +10,6 @@ namespace CalorieTrackerApp.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "CalorieTrackerApp.DAL.CalorieTrackerDbContext";
         }
 
         protected override void Seed(CalorieTrackerApp.DAL.CalorieTrackerDbContext context)

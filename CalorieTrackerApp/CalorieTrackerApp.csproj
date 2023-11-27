@@ -184,13 +184,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202311031812557_InitialCreate.cs" />
-    <Compile Include="Migrations\202311031812557_InitialCreate.Designer.cs">
-      <DependentUpon>202311031812557_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202311031816176_Initial.cs" />
-    <Compile Include="Migrations\202311031816176_Initial.Designer.cs">
-      <DependentUpon>202311031816176_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\202311270426357_initial.cs" />
+    <Compile Include="Migrations\202311270426357_initial.Designer.cs">
+      <DependentUpon>202311270426357_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Calorie.cs" />
@@ -232,11 +228,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\HabitTracker\Index.cshtml" />
-    <Content Include="Views\HabitTracker\Details.cshtml" />
-    <Content Include="Views\HabitTracker\Create.cshtml" />
-    <Content Include="Views\HabitTracker\Edit.cshtml" />
-    <Content Include="Views\HabitTracker\Delete.cshtml" />
+    <Content Include="Views\CalorieTracker\Index.cshtml" />
+    <Content Include="Views\CalorieTracker\Details.cshtml" />
+    <Content Include="Views\CalorieTracker\Create.cshtml" />
+    <Content Include="Views\CalorieTracker\Edit.cshtml" />
+    <Content Include="Views\CalorieTracker\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -255,11 +251,8 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202311031812557_InitialCreate.resx">
-      <DependentUpon>202311031812557_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202311031816176_Initial.resx">
-      <DependentUpon>202311031816176_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202311270426357_initial.resx">
+      <DependentUpon>202311270426357_initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
